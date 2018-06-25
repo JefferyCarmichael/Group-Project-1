@@ -36,3 +36,11 @@ label {
     font-size: 1.0rem;
     color: #9e9e9e;
 }
+
+#returnTime {
+    padding: 20px
+}
+
+#image-holder {
+    -webkit-transition: background-image 1000ms ease-out 1s;
+}
