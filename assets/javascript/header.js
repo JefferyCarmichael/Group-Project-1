@@ -25,11 +25,10 @@ function nextImage() {
   if (count === images.length) {
     count = 0;
   }
-
 }
 
 //  Use showImage to hold the setInterval to run nextImage.
 showImage = setInterval(nextImage, 8500);
 
 // This will run the display image function as soon as the page loads.
-displayImage()
+displayImage();
